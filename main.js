@@ -3,18 +3,18 @@ $(document).ready(function () {
 	//Get Restaurant register
 	$("#sign-up").click(function (event) {
 
-		// event.preventDefault();
-		// $.ajax({
-		// 	url: "php/restaurantRegister.php",
-		// 	method: "POST",
-		// 	data: $("form").serialize(),
-		// 	success: function (data) {
-		// 		//$("#signupmsg").html(data);
-		// 		alert(data)
-		// 	}
-		// });
-		// $('.form-sign')[0].reset();
-		alert(1);
+		 event.preventDefault();
+		 $.ajax({
+		 	url: "php/restaurantRegister.php",
+			method: "POST",
+			data: $("form").serialize(),
+			success: function (data) {
+				//$("#signupmsg").html(data);
+				alert(data)
+			}
+		 });
+		 $('.form-sign')[0].reset();
+		
 	})
 
 	//Get customer register
