@@ -1,0 +1,28 @@
+html{
+    height:100%;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    min-height: 100%;
+} 
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    margin-top: 5rem;
+}
+
+.card{
+    margin-top: 3.6rem;
+}
+
+.mpage{
+    margin-top: 5rem;
+}
+
+.card_specific{
+    margin-top: 5rem;
+}
+
+footer{
+ margin-top:auto;  
+}
