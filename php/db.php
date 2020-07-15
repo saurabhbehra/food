@@ -1,6 +1,6 @@
 <?php
-$servername = "sql12.freesqldatabase.com";
-$username ="root";
+$servername = "http://www.phpmyadmin.co/db_structure.php?server=1&db=sql12355086";
+$username ="sql12355086";
 $password = "RXu44JDvc4";
 $db = "sql12355086";
 
