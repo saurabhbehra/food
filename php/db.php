@@ -1,8 +1,8 @@
 <?php
 $servername = "sql12.freesqldatabase.com";
-$username ="sql12355086";
-$password = " RXu44JDvc4";
-$db = " sql12355086";
+$username ="root";
+$password = "RXu44JDvc4";
+$db = "sql12355086";
 
 // Create connection
 $con = mysqli_connect($servername, $username, $password,$db);
